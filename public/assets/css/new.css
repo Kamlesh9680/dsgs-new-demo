@@ -1,0 +1,71 @@
+.offcanvase__banner--content .input {
+    border: none;
+    background-color: #e2e2e2;
+    /* margin-bottom: .2rem; */
+    /* border-bottom: 1px solid #c4c4c4; */
+    padding: 8px 10px;
+    margin-bottom: 1rem;
+    min-width: 340px;
+    max-width: 100%;
+    color: #000;
+    border-radius: 2px;
+}
+.offcanvase__banner--content .input:focus, .offcanvase__banner--content.input:active{
+    border-color: var(--rt-primary-1) !important;
+}
+.offcanvase__banner--content button.submitBtn {
+    margin-top: 1.5rem;
+}
+
+.fs-13 {
+    font-size: 13px !important;
+}
+
+.mission-cpy{
+    width: 520px;
+    /* height: 322px; */
+    background-color: var(--rt-secondary);
+    color: #fff;
+    position: relative;
+    padding: 5rem 3rem 4rem 3rem;
+}
+
+.mission-cpy .place-number{
+    font-size: 100px;
+}
+
+.mission-cpy .place-number-substitute{
+    font-size: 40px;
+}
+
+.mission-cpy p{
+    margin-top: 1.5rem;
+    color: #fff;
+    max-width: 100% !important;
+}
+
+.recruiters-logos-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.recruiters-logo{
+    height: 120px;
+    width: calc(20% - 10px);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.recruiters-logo img{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    object-fit: contain !important;
+}

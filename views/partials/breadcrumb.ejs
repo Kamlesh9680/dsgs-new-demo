@@ -1,0 +1,49 @@
+<section class="rts-breadcrumb breadcrumb-height breadcumb-bg"
+    style="background-image: url(assets/images/banner/breadcrumb.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumb-content">
+                    <ul class="breadcrumb" id="breadcrumb-list">
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    </ul>
+                    <h2 class="section-title" id="breadcrumb-title"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let pathArray = window.location.pathname.split('/').filter(Boolean);
+        let breadcrumbList = document.getElementById("breadcrumb-list");
+        let breadcrumbTitle = document.getElementById("breadcrumb-title");
+
+        let fullPath = "";
+        pathArray.forEach((segment, index) => {
+            fullPath += "/" + segment;
+            let isLast = index === pathArray.length - 1;
+            let listItem = document.createElement("li");
+            listItem.className = "breadcrumb-item" + (isLast ? " active" : "");
+
+            let text = segment.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()); // Capitalize first letters
+
+            if (!isLast) {
+                let link = document.createElement("a");
+                link.href = fullPath;
+                link.textContent = text;
+                listItem.appendChild(link);
+            } else {
+                listItem.textContent = text;
+                breadcrumbTitle.textContent = text;
+            }
+
+            breadcrumbList.appendChild(listItem);
+        });
+
+        if (pathArray.length === 0) {
+            breadcrumbTitle.textContent = "Home";
+        }
+    });
+</script>

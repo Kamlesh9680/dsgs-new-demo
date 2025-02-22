@@ -1,0 +1,56 @@
+   <!--Start Check Student Stories-->
+    <div class="students-stories-area rts__secondary__bg-2 pt-120">
+        <div class="container">
+            <div class="row">
+                <div class="rts__section--wrapper v__5">
+                    <h2 class="rts__section--title mb--15">Student Stories</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-stories-card">
+                        <div class="stories-content">
+                            <p>Ms Saloni Singh</p>
+                        </div>
+                        <iframe src="https://www.youtube.com/embed/g-GNSD9A7Og" title="Alumni testimonial"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-stories-card">
+                        <div class="stories-content">
+                            <p>Ms Aaliya Mulla</p>
+                        </div>
+                        <iframe src="https://www.youtube.com/embed/gCZDmQdxqQ0" title="Alumni speaks" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-stories-card">
+                        <div class="stories-content">
+                            <p>Ms Pranita Shetty</p>
+                        </div>
+                        <iframe src="https://www.youtube.com/embed/ptmHTQt23PY"
+                            title="DSIMS Alumni Ms. Pranita Shetty - PGDM-HR 2013-15 batch" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-stories-card">
+                        <div class="stories-content">
+                            <p>Mr Omkar Shinde</p>
+                        </div>
+                        <iframe src="https://www.youtube.com/embed/Cx3TjXhOiv4"
+                            title="DSIMS Alumni Mr. Omkar Shinde – MMS – Marketing – 2012-14" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Check Student Stories-->
