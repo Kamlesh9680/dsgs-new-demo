@@ -39,6 +39,6 @@ app.get('/post-graduate-diploma-in-management-pgdm', (req, res) => {
 });
 
 // Start the server
-app.listen(4000, () => {
+app.listen(3000, () => {
     console.log(`Server is running at http://localhost:4000`);
 });
